@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystals Collector!</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+	<h1>Crystal Collector!</h1>
+
+	<div class="instructions">
+		<p>
+			You will be given a random number at the start of the game.
+		</p>
+		<br><br>
+		<p>
+			There are four crystals below. By clicking on each crystal, you will add a specific amount of points to your total score.
+		</p>
+		<br><br>
+		<p>
+			You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number.
+		</p>
+		<br><br>
+		<p>
+			The value of each crystal is hidden from you until you click on it.
+		</p>
+		<br><br>
+		<p>
+			The value of the crystals will change at the start of each game.
+		</p>
+	</div>
+
+	<div class="randomNumber"></div>
+
+	<div class="score">
+		<p class="wins">Wins:</p>
+		<br><br><br><br>
+		<p class="losses">Losses:</p>
+	</div>
+
+	<div class="clearfix">
+	<div class="firstCrystal crystal">
+		<img src= "assets/images/saphire.jpg" alt="saphire" style="height: 150px; width: 150px">
+	</div>
+	<div class="secondCrystal crystal">
+		<img src="assets/images/diamond.jpg" alt="diamond" style="height: 150px; width: 150px">
+	</div>
+	<div class="thirdCrystal crystal">
+		<img src= "assets/images/emerald.jpg" alt="emerald" style="height: 150px; width: 150px">
+	</div>
+	<div class="fourthCrystal crystal">
+		<img src= "assets/images/ruby.jpg" alt="ruby" style="height: 150px; width: 150px">
+	</div>
+	</div>
+
+	<div class="textScore">Your total Score is:</div>
+	<div class="totalScore"></div>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+</html>

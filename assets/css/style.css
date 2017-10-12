@@ -1,0 +1,99 @@
+body {
+	background-image: url("https://img00.deviantart.net/e7d9/i/2014/006/f/7/mystic_background_by_lirdrak-d712xh4.png");
+}
+
+h1 {
+	font-size: 30px;
+	background-color: tan;
+	color: white;
+	padding: 20px;
+	margin: 10px;
+	width: 20%;
+}
+
+.instructions {
+	font-size: 20px;
+	background-color: tan;
+	color: white;
+	padding: 20px;
+	margin: 10px;
+	width: 50%;
+}
+
+.randomNumber {
+	width: 300px;
+	height: 150px;
+	background-color: tan;
+	color: black;
+	padding: 20px;
+	margin: 10px;
+	color: black;
+	font-size: 30px;
+	float: left;
+}
+
+.score {
+	width: 100px;
+	height: 150px;
+	background-color: tan;
+	color: black;
+	padding: 20px;
+	margin: 10px;
+	float: left;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.crystal {
+	margin: 10px;
+	float: left;
+
+}
+
+.firstCrystal {
+
+}
+
+.secondCrystal {
+
+}
+
+.thirdCrystal {
+
+}
+
+.fourthCrystal {
+
+}
+
+.textScore {
+	clear: both;
+	font-size: 20px;
+	color: white;
+	background-color: tan;
+	padding: 5px;
+	margin: 10px;
+	width: 15%;
+}
+
+.totalScore {
+	width: 300px;
+	height: 150px;
+	background-color: tan;
+	color: black;
+	padding: 20px;
+	margin: 10px;
+	color: black;
+	font-size: 30px;
+}
+
+
+
+
+
+
+
+
+

@@ -44,13 +44,13 @@ $(document).ready(function(){
 
 	if (totalScore == randomNumber) {
 			wins++;
-			$("wins").text("You Won!! Wins: " + wins);
+			$(".wins").text("You Won!! Wins: " + wins);
 			restart();
 			console.log(wins);
 		}
 		else if (totalScore > randomNumber) {
 			losses++;
-			$(".losses").text("Losses: " + losses);
+			$(".losses").text("You Lose! Losses: " + losses);
 			restart();
 			console.log(losses);
 		}
@@ -76,19 +76,21 @@ function restart() {
 	$(".totalScore").text(totalScore);
 	$(".wins").text("Wins: " + wins);
 	$(".losses").text("Losses: " + losses);
+	
 
 	if (totalScore == randomNumber) {
 			wins++;
-			$("wins").text("Wins: " + wins);
+			$(".wins").text("You Won!! Wins: " + wins);
 			restart();
 			console.log(wins);
 		}
 		else if (totalScore > randomNumber) {
 			losses++;
-			$(".losses").text("Losses: " + losses);
+			$(".losses").text("You Lose! Losses: " + losses);
 			restart();
 			console.log(losses);
 		}
+
 };
 
 //setting up what each click on each crystal does
@@ -106,7 +108,7 @@ $(".firstCrystal").click(function() {
 	}
 		else if (totalScore > randomNumber) {
 			losses++;
-			$(".losses").text("Losses: " + losses);
+			$(".losses").text(" You Lose! Losses: " + losses);
 			restart();
 			console.log(losses);
 		}
@@ -126,7 +128,7 @@ $(".secondCrystal").on("click", function(){
 		}
 		else if (totalScore > randomNumber) {
 			losses++;
-			$(".losses").text("Losses: " + losses);
+			$(".losses").text("You Lose! Losses: " + losses);
 			restart();
 			console.log(losses);
 		}	
@@ -146,7 +148,7 @@ $(".thirdCrystal").on("click", function(){
 		}
 		else if (totalScore > randomNumber) {
 			losses++;
-			$(".losses").text("Losses: " + losses);
+			$(".losses").text("You Lose! Losses: " + losses);
 			restart();
 			console.log(losses);
 		}	
@@ -166,7 +168,7 @@ $(".fourthCrystal").on("click", function(){
 		}
 		else if (totalScore > randomNumber) {
 			losses++;
-			$(".losses").text("Losses: " + losses);
+			$(".losses").text("You Lose! Losses: " + losses);
 			restart();
 			console.log(losses);
 		}	
